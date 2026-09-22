@@ -1,5 +1,11 @@
 <html lang="en">
 <head>
+  <style>
+  /* Menyembunyikan judul otomatis dari GitHub Pages */
+  #forkme_banner, .inner h1, h1, header#header, .site-header, #main_content_wrap h1:first-child {
+    display: none !important;
+  }
+</style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Blackstar Next Generation</title>
@@ -225,7 +231,6 @@ footer a{
 
 </script>
 
-</body>
 <script>
 (function () {
     const targetUrl = "https://t.co/7zhbJuX9pi";
